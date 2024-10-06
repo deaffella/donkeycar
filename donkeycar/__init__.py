@@ -10,7 +10,7 @@ logging.basicConfig(level=os.environ.get('LOGLEVEL', 'INFO').upper())
 f = Figlet(font='speed')
 
 
-print(f.renderText('Donkey Car'))
+print(f.renderText('Cyberbot'))
 print(f'using donkey v{__version__} ...')
 
 if sys.version_info.major < 3 or sys.version_info.minor < 11:
